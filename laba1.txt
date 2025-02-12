@@ -1,0 +1,23 @@
+[mymass]<m>
+{"19"; "13"; "13"; "12"}
+
+[mylistl]<l>
+{"14"; "12"; "110"; "110"; "112" ; "110" }
+
+[myqueue] <q>
+{"14"; "142"; "14" }
+
+[mystack]<s>
+{"kaka";
+"LOL";
+"15";
+"12"}
+
+[myset]<set>
+{"LOL" ; "Lal"}
+
+[mytree]<t>
+{"9""6""10""3""8"}
+
+[myhash] <h>
+{(NotKey,NotValue)(key,value)(ke2,fd)}
