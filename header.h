@@ -208,3 +208,37 @@ public:
     int TRead(string& read, int& ind_start, int& ind);
 
 }; 
+
+class SetNode{
+public:
+    string data;
+};
+
+class Set{
+public:
+    int size;
+    SetNode** setik;
+
+    Set(int num);
+
+    bool is_empty();
+
+    bool is_full();
+
+    int HSet (string data);
+
+    bool FindInd(string value, int& ind);
+
+    bool Set_At(string data);
+
+    void SetPush(string new_data);
+
+    void SetPop(string data);
+
+    void SPrint();
+
+    void SetWrite(string& read, string filename, int ind_start, int end);
+
+    void SetRead(string& read, int& ind_start, int& ind);
+
+};
