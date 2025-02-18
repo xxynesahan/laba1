@@ -242,3 +242,4 @@ public:
     void SetRead(string& read, int& ind_start, int& ind);
 
 };
+
